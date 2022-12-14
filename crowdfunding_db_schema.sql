@@ -72,3 +72,4 @@ REFERENCES "subcategory" ("subcategory_id");
 ALTER TABLE "backers" ADD CONSTRAINT "fk_backers_cf_id" FOREIGN KEY("cf_id")
 REFERENCES "campaign" ("cf_id");
 
+SELECT * FROM backers;
